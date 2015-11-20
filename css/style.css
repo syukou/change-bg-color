@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/*-------------------------------------------------------------------------------
+ RESET
+ -------------------------------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol li {
+	list-style: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+img {
+	vertical-align: top;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cf {
+	display: inline-table;
+}
+
+.cf:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .cf {
+	height: 1%;
+}
+
+.cf {
+	display: block;
+}
+
+/*-------------------------------------------------------------------------------
+ BASE
+ -------------------------------------------------------------------------------*/
+
+body {
+	background-color: rgb(238, 234, 229);
+}
+
+.cm-main-wrap {
+	padding: 50px 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.cm-inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.cm-right-contents {
+	float: right;
+	width: 750px;
+}
+
+.cm-contents-inner {
+	padding: 30px;
+	border-right: 1px solid #E8E5E0;
+	border-left: 1px solid #E8E5E0;
+	box-sizing: border-box;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 2px #DDD9D4;
+}
+
+.cm-contents-inner + .cm-contents-inner {
+	margin-top: 30px;
+}
+
+/* ----------------------------
+Color Parameter Box (For Client)
+---------------------------- */
+.cm-colorbox {
+	display: none;
+}
+
+.section1-color {
+	background-color: rgb(238, 234, 229);
+}
+
+.section2-color {
+	background-color: rgba(213, 126, 102, 0.56);
+}
+
+.section3-color {
+	background-color: rgba(255, 157, 240, 0.64);
+}
+
+.section4-color {
+	background-color: rgba(134, 145, 255, 0.71);
+}
+
+.section5-color {
+	background-color: rgba(121, 204, 141, 0.70);
+}
+
+.section6-color {
+	background-color: rgba(255, 241, 150, 0.69);
+}
